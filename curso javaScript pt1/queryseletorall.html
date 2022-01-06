@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+<h1>É um elemento ap.</h1>
+<p>Este também é um elemento ap.</p>
+
+<p class="red">Clique no botão para adicionar uma cor de fundo ao primeiro elemento p (índice 0) no documento</p>
+
+<button type="button" onclick="myFunction()">Clique Aqui</button>
+
+<p><strong>Observação:</strong> o método querySelectorAll () não é compatível com o Internet Explorer 8 e versões anteriores.</p>
+
+<script>
+
+    function myFunction(){
+        var x = document.querySelectorAll('h1, p, p.red');
+
+        x[0].style.backgroundColor = "red";
+
+        //querySeletor
+
+        document.querySelector("p.red").style.backgroundColor = "red";
+    }
+</script>
+
+</body>
+
+</html>

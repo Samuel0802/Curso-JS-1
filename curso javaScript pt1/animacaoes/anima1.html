@@ -1,0 +1,32 @@
+<html>
+
+<body>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        .aniEsquerda{
+         transition: 0.9s;
+         margin-left: 500px;
+         background-color: black;
+         
+        }
+
+    </style>
+    <div class="box"></div>
+
+
+    <script>
+        var box = document.querySelectorAll('.box')[0];
+
+     setTimeout(()=>{
+         box.classList.add('aniEsquerda');
+     },2000);
+    
+     
+    </script>
+</body>
+
+</html>

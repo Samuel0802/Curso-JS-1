@@ -1,0 +1,68 @@
+
+<html>
+    <body>
+        <script>
+//FUNÇÕES E INSTANCIAS
+/*
+  function Pessoas(){
+      this.nome = "Samuel";
+      this.idade = 27;
+      this.printNome = function(numero){
+          alert(numero);
+      }
+
+  }
+
+  function Animal(nome,peso){
+     if(nome == undefined){
+        nome = "Cachorro";
+     }
+
+     if(peso == undefined){
+          peso = "10kg";
+     }
+
+     this.nome = nome;
+     this.peso = peso
+  }
+     animal = new Animal('Gato');
+  
+  alert(animal.peso);   */
+
+
+
+  function Pessoas(){
+      this.nome = "Samuel";
+      this.idade = 27;
+      this.printNome = function(numero){
+          alert(numero);
+      };
+      this.returnAnimal = function(animal){
+          return animal;
+      }
+
+  }
+
+  function Animal(){
+     
+     this.nome = "cachorro";
+     this.raca = "bulldog";
+  }
+
+
+     var pessoa = new Pessoas();
+     var animal = new Animal();
+
+     animal.raca = "bulldog";
+
+     alert(pessoa.returnAnimal(animal).raca);
+  
+
+  
+
+  
+            
+            </script>
+    </body>
+</html>
+

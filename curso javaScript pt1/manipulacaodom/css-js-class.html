@@ -1,0 +1,39 @@
+
+<html>
+    <body>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+       
+        <script>
+       
+          var el = document.getElementsByClassName('box');
+          
+          /*
+          var caixa =  el[0];
+
+          caixa.style.width = 200;
+          caixa.style.height = 200;
+          caixa.style.backgroundColor = 'black';
+          caixa.style.marginLeft = 300;
+*/
+    
+         for(var i = 0; i < el.length; i++){
+             var caixa = el[i];
+
+
+             caixa.style.width = 200;
+          caixa.style.height = 200;
+          caixa.style.backgroundColor = 'black';
+          caixa.style.marginLeft = 300;
+          caixa.style.marginTop = 10;
+          caixa.style.borderWidth = 5;
+
+         }
+        </script>
+
+      
+    </body>
+</html>
+

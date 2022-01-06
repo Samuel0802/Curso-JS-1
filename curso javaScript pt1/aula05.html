@@ -1,0 +1,38 @@
+
+<html>
+    <body>
+        <script>
+//executando quando chamar a função
+
+function teste(){
+    console.log("chamando a função teste");
+}
+
+//teste();
+    function formulario(nome,idade,email,numero){
+        console.log('Seu nome:'+nome);
+        console.log('Sua idade:'+idade);
+        console.log('Seu Email:'+email);
+        console.log("---------------------------------------------------------");
+    }
+/*
+    formulario("Samuel souza",22,"Samuelsilva3132@gmail.com",99645632);
+    formulario("Douglas silva",25,"Douglassilva@gmail.com",95634252);
+  */
+
+  function PegarDados(paramentro){
+           if(paramentro == 'Samuel Souza'){
+               
+            return "Samuel Souza";
+           }
+           else{
+               return "Outro nome";
+           }
+  }
+
+  var nome = PegarDados(55);
+       console.log(nome);
+            </script>
+    </body>
+</html>
+
